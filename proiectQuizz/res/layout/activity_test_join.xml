@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".name.Test_join">
+
+    <TextView
+        android:id="@+id/tvTitluJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/test_join"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textColorHighlight="@color/Aquamarine"
+        android:textSize="35sp"
+        android:visibility="visible"
+        />
+
+
+    <TextView
+        android:id="@+id/tvCodAcces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/Itroducere_cod_acces"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/tvTitluJoin"
+        />
+
+    <Button
+        android:id="@+id/buttonBegin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="110dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/Begin"
+        android:background="@drawable/button_design"
+        android:layout_toEndOf="@id/tvCodAcces"/>
+
+    <EditText
+        android:id="@+id/etCodAcces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_cod_acces"
+        android:layout_toEndOf="@id/etCodAcces"/>
+
+     />
+</RelativeLayout>

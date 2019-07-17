@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".name.Before_Starting_test">
+
+    <TextView
+        android:id="@+id/tvHintTitluPreluat"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/tvNrIntrebari"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="340dp"
+        android:text="@string/nr_intrebari_before_start"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/tvHintTitluPreluat"/>
+
+    <TextView
+        android:id="@+id/tvHintNrIntrebariPreluate"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/tvNrIntrebari"/>
+
+    <TextView
+        android:id="@+id/tvTimpAlocat"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="240dp"
+        android:text="@string/timp_alocat_before_start"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/tvHintNrIntrebariPreluate"/>
+
+
+    <TextView
+        android:id="@+id/tvHintTimpAlocatPreluat"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="180dp"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/tvTimpAlocat"/>
+
+    <Button
+        android:id="@+id/BtnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/Start"
+        />
+
+
+
+
+</RelativeLayout>

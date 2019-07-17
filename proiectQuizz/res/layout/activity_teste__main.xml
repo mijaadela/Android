@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".name.Teste_Main">
+
+    <TextView
+        android:id="@+id/tvListaTeste"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/lista_teste_main"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:textColorHighlight="@color/Aquamarine"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="00dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+
+    <Spinner
+        android:id="@+id/select_class_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvListaTeste"
+        android:layout_margin="10dp">
+    </Spinner>
+
+    <ListView
+        android:id="@+id/lvListaTeste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/select_class_spinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:divider="@color/Black"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="horizontal" />
+
+
+</RelativeLayout>

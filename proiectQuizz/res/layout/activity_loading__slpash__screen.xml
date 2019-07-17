@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loading_Slpash_Screen">
+
+
+    <TextView
+        android:id="@+id/tvWait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        android:text="@string/Loading"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@id/tvWait"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="128dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+
+</RelativeLayout>

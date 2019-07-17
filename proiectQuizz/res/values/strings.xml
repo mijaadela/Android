@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    //pentru activity_log_in
+    <string name="login">LOG IN</string>
+
+    <string name="singup">SING UP</string>
+    <string name="singup_student">AS A STUDENT</string>
+    <string name="singup_teacher">AS A TEACHER</string>
+    <string name="acount">ACCOUNT DETAILS</string>
+    <string name="etfirstname">FIRST NAME</string>
+    <string name="etlastname">LAST NAME</string>
+    <string name="spGrupa">GRUPA</string>
+    <string name="etemail">EMAIL</string>
+    <string name="etpassword">PASSWORD</string>
+    <string name="etconfpass">CONFIRM PASSWORD</string>
+    <string name="btncreate">CREATE</string>
+    <string name="spdepartament">DEPARTAMENT</string>
+
+
+    <string name="test_join">JOIN TEST</string>
+    <string name="Itroducere_cod_acces">Introduce-ti codul de acces: </string>
+    <string name="Begin">BEGIN</string>
+    <string name="hint_cod_acces">Cod Acces</string>
+    <string name="lista_teste_main">LISTA TESTE  </string>
+    <string name="nr_intrebari_corecte">Nr intrebari corecte </string>
+    <string name="timp_test_efectuat">Timp test </string>
+    <string name="titlu_test_efectuat">Titlu test </string>
+    <string name="lista_teste_efectuate">LISTA TESTE EFECTUATE </string>
+    <string name="Loading">Loading...</string>
+    <string name="nr_intrebari_before_start">Numar de intrebari: </string>
+    <string name="timp_alocat_before_start">Timp alocat:</string>
+    <string name="hint_Titlu_preluat">Titlul preluat</string>
+    <string name="Start">Start</string>
+    <string name="hint_nr_intrebari_preluate">Nr intrebari preluate</string>
+    <string name="hint_timp_alocat_preluat">Timp alocat preluat</string>
+    <string name="btn_Teste">Teste</string>
+    <string name="btn_istoric"> Istoric</string>
+    <string name="btn_Grafice">Grafice</string>
+
+
+    <string name="tests">Teste</string>
+    <string name="prof_istoric">Istoric teste</string>
+
+    <string name="results">Rezultate</string>
+
+    <string name="show">Afiseaza</string>
+
+    <string name="save_test">Salveaza testul</string>
+
+    <string name="save_question">Salveaza intrebarea</string>
+
+
+    <string name="question">Intrebarea...</string>
+
+    <string name="response_a">Rasundul a</string>
+
+    <string name="response_b">Rasundul b</string>
+
+    <string name="response_c">Rasundul c</string>
+
+    <string name="points">Punte: </string>
+    <string name="correct_response">Varianta corecta: </string>
+
+    <string name="invalid">Campul nu poate fi gol!</string>
+
+    <string-array name="class_arrays">
+        <item>Statistica</item>
+        <item>Programare orientata pe obiecte</item>
+        <item>Baze de date</item>
+        <item>Structuri de date</item>
+    </string-array>
+    <string name="Home">Home</string>
+    <string name="LogOut">LogOut</string>
+    <string name="About">About</string>
+    <string name="Exit">Exit</string>
+
+    <string name="Echipa"> ECHIPA : Musat Alexandra, Musteata Radu, Neacsu Andreea, Mija Adela-Maria, Almajanu Florentina Corina</string>
+    <string name="Versiune">VERSIUNEA : v1.0.0</string>
+    <string name="abbout">ABOUT OUR APP</string>
+    <string name="adresa">ADRESA : ASE, CSIE, Calea Dorobanti 15 \- 17, Sector 1, Bucuresti, 010552.</string>
+    <string name="apiKey">AIzaSyAcDVaz3UAwtuixPTtU9ifk7fGmCDz48gw</string>
+
+
+
+</resources>

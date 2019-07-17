@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/SkyBlue</item>
+        <item name="colorPrimaryDark">@color/SteelBlue</item>
+        <item name="colorAccent">@color/Yellow</item>
+        <item name="android:colorPrimaryDark">@color/Blue</item>
+        <item name="android:statusBarColor">@color/SteelBlue</item>
+        <item name="android:navigationBarColor">@color/SkyBlue</item>
+        <item name="android:colorPrimary">@color/LightSkyBlue</item>
+        <item name="android:colorBackground">@color/Azure</item>
+    </style>
+
+    <style name="NewThene" parent="AppTheme" >
+        <item name="android:colorPrimary">@color/SkyBlue</item>
+        <item name="android:statusBarColor">@color/SteelBlue</item>
+        <item name="android:windowBackground">@color/AliceBlue</item>
+        <item name="android:navigationBarColor">@color/SlateGray</item>
+        <item name="android:colorBackground">@color/AliceBlue</item>
+        <item name="android:colorAccent">@color/DarkBlue</item>
+        <item name="android:colorPrimaryDark">@color/Blue</item>
+    </style>
+
+</resources>

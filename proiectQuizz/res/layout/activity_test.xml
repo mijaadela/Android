@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".profesori.TestsActivity">
+
+    <LinearLayout
+        android:id="@+id/testInfoLl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/testNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:hint="Numele testului"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Materie" />
+
+        <Spinner
+            android:id="@+id/class_sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/accessCodeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Cod acces"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/saveInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salveaza"
+            android:background="@drawable/button_design"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/questionLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/et_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question" />
+
+        <EditText
+            android:id="@+id/et_responseA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/response_a" />
+
+        <EditText
+            android:id="@+id/et_responseB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/response_b" />
+
+        <EditText
+            android:id="@+id/et_responseC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/response_c" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/correct_response" />
+
+            <Spinner
+                android:id="@+id/sp_points"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_design"
+            android:text="@string/save_question"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="invisible">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_save_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_design"
+        android:text="@string/save_test"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"/>
+</LinearLayout>
